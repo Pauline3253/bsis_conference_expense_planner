@@ -1,0 +1,49 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+}
+
+
+.scrollable {
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+* {
+  box-sizing: inherit;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  scroll-padding-top: 100px;
+}

@@ -1,0 +1,28 @@
+.summary-section {
+  margin-top: 40px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.summary-section table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.summary-section th,
+.summary-section td {
+  padding: 10px;
+  border: 1px solid #d763c4;
+}
+
+.summary-section h2 {
+  margin-bottom: 10px;
+}
+
+.summary-table th {
+  background-color: #c86bbd;
+  font-weight: 600;
+}
